@@ -13,8 +13,7 @@ The result is a tab-delimited file with three or more columns.
 3. Col 3+: prefered terms for that ID
 
 Currently, there is limited UI built in to the application and requires the easygui package.
-To install easygui, type the following line in your command line:
-easy_install easygui
+To install easygui, type the following in your command line: `easy_install easygui`
 
 Also, if it looks like the application has stalled after asking for a save location, you might have a
 file explorer box hidden behind an application window.
