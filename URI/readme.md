@@ -1,11 +1,11 @@
-#Readme
+# Readme
 URI folder stores the code and workflow information for 
 creating URIs for the StudentNews project.
 
 
 
 
-#VIAF AUTHORITY RECORDS
+# VIAF AUTHORITY RECORDS
 viafURI_v2.py will lookup VIAF authorities for named entities (people, organizations, places...).
 The result is a tab-delimited file with three or more columns.
 Col 1: VIAF ID
