@@ -9,7 +9,7 @@ viafURI_v2.py will look up VIAF authorities for named entities (people, organiza
 
 The input is a csv file with one column (named entities only) or two columns (1: entities; 2: type). The types you can choose from are limited to: person (use: person), place (use: place) or organization (use: org). Any other string will do a Contextual Query Language of all fields.
 
-The result is a tab-delimited file with three or more columns.
+The result is a tab-delimited file with seven or more columns.
 1. Col 1: Original search term
 2. Col 2: VIAF ID
 3. Col 3: Entity type
