@@ -41,3 +41,16 @@ The column containing dates (column 4) comes from the text description provided 
 
 Also requires easygui  package.
 
+## Full process
+main_long.py will look up both VIAF and DBpedia URIs from a set of named entities.
+
+The input is a tab-delimited file with three columns. This format is designed to match the output of the StanfordNER 4-class model (PERSON, LOCATION, ORGANIZATION, MISC) using tabbed entities. This has two advantages: 1) it keeps first and last names together and 2) it keeps the entity in context.
+
+You will be asked to provide a folder with the input files and another folder for the output files. These should be different, otherwise you end up in a infinite loop.
+
+For each input file, you have two output files: 1) VIAF URIs and 2) DBpedia URIs. The output files are very similar to the descriptions provided for each in the above sections.
+
+
+
+
+
