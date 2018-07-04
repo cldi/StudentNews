@@ -1,5 +1,6 @@
-﻿For processing a single file
-*********************************************************************************************
+﻿*********************************************************************************************
+FOR PROCESSING A SINGLE FILE
+
 Inline XML version:
 java -mx600m -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.conll.4class.distsim.crf.ser.gz -textFile MD1946.txt > results.xml -outputFormat inlineXML 
 (Output keeps entire entity together, but the resulting XML file is not valid.)
@@ -16,6 +17,8 @@ java -mx600m -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadCla
 
 
 *********************************************************************************************
-FOR AUTOMATED PROCESSING OF TXT FILES WITH STANFORDNER
+FOR AUTOMATED PROCESSING OF MULTIPLE TEXT FILES
 
 for %f in (Trial\*.txt) do java -mx600m -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.conll.4class.distsim.crf.ser.gz -textFile %f > Results\%f -outputFormat tabbedEntities
+
+Use: for /R %f... if you need to recursively navigate subfolders.
