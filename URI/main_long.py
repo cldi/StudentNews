@@ -1,4 +1,14 @@
 # =============================================================================
+# Created on Wed Jul 4 2018
+# 
+# @author: Christopher Trudeau
+# https://github.com/christrudeaumtl
+# In the context of a project by McGill University Library to turn student
+# news publications into linked data.
+# =============================================================================
+
+
+# =============================================================================
 # Code to do the complete process from StanfordNER to URIs from VIAF and DBpedia
 # =============================================================================
 
